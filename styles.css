@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: white;
+    font-family: 'Alef';
+    background-color: transparent;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-decoration: none;
+}
+body{
+    background-color: rgb(47, 47, 47);
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(25px);
+    background-color: #ff744516;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 10px 50px -30px #f7e0b43f;
+}
+.brand-name{
+    font-weight: 800;
+    font-size: 20pt;
+}
+.brand-name span{
+    color: #FF7545;
+}
+.nav-icon{
+    display: flex;
+    margin-right: 3em;
+    gap: 2vw;
+    /* gap: 10vw; */
+}
+
+.nav-icon button{
+    background-color: transparent;
+    width: 5em;
+    font-size: 14pt;
+}
+
+#hire{
+    border-radius: 5px;
+    border: 1px solid #FF7545;
+}
+
+.content{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 10px 50px -30px #f7e0b43f;
+}
+
+.info{
+    display: flex;
+    /* align-items: center; */
+    text-align: left;
+    flex-direction: column;
+    width: 30%;
+    gap: 0.5em;
+    
+}
+.info greet{
+    font-size: 20pt;
+}
+.info name{
+    font-size: 35pt;
+    font-weight:800; 
+}
+.info desc{
+    font-size: 10pt;
+}
+
+.info button{
+    margin-top: 2em;
+   
+    border-radius: 1em;
+    height: 2.5em;
+    background-color: #FF7545;
+}
+.info button a{
+    font-size: 15pt;
+    font-family: 'poppins';
+    font-weight: bolder;
+}
+
+.qualities{
+    height: 20em;
+    width: 90em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 2em;
+   
+    gap: 8em;
+}
+
+.quality{
+    width: 15em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #FF7545;
+    border-radius: 1em;
+    text-align: center;
+    overflow: hidden;
+    gap: 0.2em;
+    
+}
+.quality heading{
+    font-size: 16pt;
+    background-color: #FF7545; 
+    width: 100%;
+    
+}
+.quality text{
+    font-size: 10pt;
+    margin: 2px 4px;
+}
+
+.footer{
+    background-color: rgb(32, 30, 30);
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer center{
+    font-size: 35pt;
+    font-weight: 800;
+}
+.footer center span{
+    color: #FF7545;
+}
